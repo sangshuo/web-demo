@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        setCookie('busiId','0134')
+        //设置cookie
+        function setCookie(c_name, value, expiredays) {
+            var exdate = new Date();
+            exdate.setTime(exdate.getTime() + expiredays * 1000 * 60 * 48);
+            // document.cookie = c_name + "=" + value + ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString()) + ";path=/";
+            document.cookie = c_name + "=" + value + ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString()) + ";path=/";
+        }
+    </script>
+</body>
+</html>

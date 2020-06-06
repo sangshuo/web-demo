@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // var i = ''
+        // var t
+        // if (i) {
+        //     t = false
+        // } else {
+        //     t = true
+        // }
+        // t = i?true:false  // t = !!i
+        // t = !!i
+        // t = !i
+        // console.log(!!i)
+
+        f()
+        function f() {
+            for (var i = 0; i < 5; i++) {
+                setTimeout(function() {
+                    console.log(new Date, i);
+                }, 1000);
+            }
+
+            console.log(new Date, i);
+        }
+        // function fn(a) {
+        //     console.log(a);
+        //     var a = 2;
+        //     function a() {}
+        //     console.log(a);
+        // }
+        // fn(1);  a();
+
+        // function sayHi() {
+        //     console.log(name);
+        //     console.log(age);
+        //     var name = "Lydia";
+        //     let age = 21;
+        // }
+        //
+        // sayHi();
+        var name = 'world';
+        (function () {
+            if (typeof name === "undefined") {
+                var name = 'ccc'
+                console.log("aaaaaaaaaaaaa")
+            } else {
+                console.log("bbbbbbbbbbbbbbbbbbb")
+            }
+            console.log(name)
+        })();
+        (function(){
+            z = 1
+            var x = y = 1;
+        })();
+        // a ()
+        // function a () {
+        //     c = 1
+        // }
+        console.log(y);
+        // console.log(x);
+        console.log(z);
+        var allFun = {
+            all1: function () {
+                console.log('all1',this)
+            },
+            o: {
+                Oall: ()=> {
+                    console.log('Oall',this)
+                },
+            }
+        }
+        allFun.all1();
+        allFun.o.Oall();
+        class ACC{
+            a = function () {
+
+            }
+            b = function () {
+
+            }
+        }
+        class ADD extends ACC{
+            c = function () {
+
+            }
+        }
+        var add = new ADD();
+        console.log(add)
+    </script>
+</body>
+</html>

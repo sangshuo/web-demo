@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <a href="./正则.html">正则</a>
+    </div>
+    <script type="text/javascript">
+        /*
+            Object.prototype.hasOwnProperty  和  call()  学习
+            1：hasOwnProperty()
+                比较是否是属性是否是其本身，是否是属于继承
+                当属性是NULL或者UNDEFINED的时候也会属于其本身，返回true
+            2：call()
+                改变其this指向，指向第一个参数，并接收第二个参数
+         */
+        let object_my_self = {}
+        object_my_self.one = null
+        object_my_self.tow = undefined
+
+        console.log(object_my_self.hasOwnProperty('one'))// 判断one是否属于对象object_my_self
+        console.log(object_my_self.hasOwnProperty('tow'))// 判断one是否属于对象object_my_self
+
+        console.log("-------------------------------------------")
+
+        //Object.prototype.hasOwnProperty.call
+        console.log(Object.prototype.hasOwnProperty.call(object_my_self,'one')) // 判断one是否属于对象object_my_self
+        console.log(Object.prototype.hasOwnProperty.call(object_my_self,'tow'))// 判断one是否属于对象object_my_self
+        function Call_test (aaa) {
+            this.aaa = aaa
+            let a = '111'
+            console.log("this",this)
+        }
+        let call_test_obj = new Call_test("嘿嘿");
+        let call_one = function (e) {
+            console.log("e",e)
+            console.log("this",this.aaa)
+        }
+        call_one.one = "aaaaa"
+        console.log("call_one.call(call_test,'one')",call_one.call(call_test_obj,'我我我'))
+    </script>
+</body>
+</html>

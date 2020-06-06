@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #content{
+            width: 140px;
+            border: 1px solid blue;
+        }
+        #msg{
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    外层div
+    　　　　　　　　　　　　　　
+    <div id="msg">
+        内层div
+        　　　　　　　　　　　　　　
+    </div>
+    　　　　　　
+</div>
+<script src="./js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+    $(function(){
+        // 为内层div绑定click事件
+        $("#msg").click(function(event){
+            alert("我是小div");
+            event.stopPropagation();    //  阻止事件冒泡
+        });
+        // 为外层div元素绑定click事件
+        $("#content").click(function(event){
+            alert("我是大div");
+            event.stopPropagation();    //  阻止事件冒泡
+        });
+        // 为body元素绑定click事件
+        $("body").click(function(event){
+            alert("我是body");
+            event.stopPropagation();    //  阻止事件冒泡
+        });
+    });
+</script>
+</body>
+</html>
+
+
+

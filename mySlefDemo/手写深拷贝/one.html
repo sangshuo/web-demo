@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function isObject(obj) {
+            return typeof obj === 'object' && obj !== null;
+        }
+        function deepCopy() {
+            // 判断如果参数不是一个对象，返回改参数
+            if(!isObject(source)) return source;
+            // 判断参数是对象还是数组来初始化返回值
+            let res = Array.isArray(source)?[]:{};
+            // 循环参数对象的key
+            for(let key in source){
+                // 如果该key属于参数对象本身
+                if(Object.prototype.hasOwnProperty.call(source,key)){
+                    // 如果该key的value值是对象，递归调用深拷贝方法进行拷贝
+                    if(isObject(source[key])){
+                        res[key] = deepCopy(source[key]);
+                    }else{
+                        // 如果该key的value值不是对象，则把参数对象key的value值赋给返回值的key
+                        res[key] = source[key];
+                    }
+                }
+            }
+            // 返回返回值
+            return res;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,735 @@
+{
+    "code": "0",
+    "msg": "809120成功",
+    "data": [{
+            "QUESTION_SCORE": "3.00",
+            "QUESTION_CONTENT": "您的主要收入来源是：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "1.00",
+                "2": "2.00",
+                "1": "3.00",
+                "5": "0.00",
+                "4": "1.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "利息、股息、转让证券等金融性资产收入",
+                "2": "生产经营所得",
+                "1": "工资、劳务报酬",
+                "5": "无固定收入",
+                "4": "出租、出售房地产等非金融性资产收入"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "517",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "6.00",
+            "QUESTION_CONTENT": "最近您家庭预计进行证券投资的资金占家庭现有总资产(不含自住、自用房产及汽车等固定资产)的比例是：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "4.00",
+                "2": "3.00",
+                "1": "1.00",
+                "5": "6.00",
+                "4": "5.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "30%－50%",
+                "2": "50%-70%",
+                "1": "70%以上",
+                "5": "10%以下",
+                "4": "10%－30%"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "516",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "3.00",
+            "QUESTION_CONTENT": "您是否有尚未清偿的数额较大的债务，如有，其性质是：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "1.00",
+                "2": "2.00",
+                "1": "3.00",
+                "4": "0.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "有，信用卡欠款、消费信贷等短期信用债务",
+                "2": "有，住房抵押贷款等长期定额债务",
+                "1": "没有",
+                "4": "有，亲朋之间借款"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "515",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "3.00",
+            "QUESTION_CONTENT": "您可用于投资的资产数额（包括金融资产和不动产）为：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "2.00",
+                "2": "1.00",
+                "1": "0.00",
+                "4": "3.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "300万-1000万元（不含）人民币",
+                "2": "50万-300万元（不含）人民币",
+                "1": "不超过50万元人民币",
+                "4": "1000万元人民币以上"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "514",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "5.00",
+            "QUESTION_CONTENT": "以下描述中何种符合您的实际情况：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "5.00",
+                "2": "5.00",
+                "1": "5.00",
+                "4": "0.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "取得证券从业资格、期货从业资格、注册会计师证书（CPA）或注册金融分析师证书（CFA）中的一项及以上",
+                "2": "已取得金融、经济或财会等与金融产品投资相关专业学士以上学位",
+                "1": "现在或此前曾从事金融、经济或财会等与金融产品投资相关的工作超过两年",
+                "4": "我不符合以上任何一项描述"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "513",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "5.00",
+            "QUESTION_CONTENT": "您的投资经验可以被概括为：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "3.00",
+                "2": "2.00",
+                "1": "1.00",
+                "4": "5.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "丰富：我是一位有经验的投资者，参与过股票、基金等产品的交易，并倾向于自己做出投资决策",
+                "2": "一般：除银行活期账户和定期存款外，我购买过基金、保险等理财产品，但还需要进一步的指导",
+                "1": "有限：除银行活期账户和定期存款外，我基本没有其他投资经验",
+                "4": "非常丰富：我是一位非常有经验的投资者，参与过权证、期货或创业板等高风险产品的交易"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "512",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "4.00",
+            "QUESTION_CONTENT": "有一位投资者一个月内做了15笔交易（同一品种买卖各一次算一笔），您认为这样的交易频率：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "3.00",
+                "2": "2.00",
+                "1": "1.00",
+                "4": "4.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "正常",
+                "2": "偏高",
+                "1": "太高了",
+                "4": "偏低"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "511",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "6.00",
+            "QUESTION_CONTENT": "过去一年时间内，您购买的不同产品或接受的不同服务（含同一类型的不同产品或服务）的数量是：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "4.00",
+                "2": "3.00",
+                "1": "1.00",
+                "4": "6.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "11至15个",
+                "2": "6至10个",
+                "1": "5个以下",
+                "4": "16个以上"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "510",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "6.00",
+            "QUESTION_CONTENT": "以下金融产品或服务，您投资经验在两年以上的有（多选）：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "2.00",
+                "2": "1.00",
+                "1": "0.00",
+                "5": "6.00",
+                "4": "4.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "股票、混合型基金、偏股型基金、股票型基金等权益类投资品种",
+                "2": "债券、货币市场基金、债券型基金或其它固定收益类产品",
+                "1": "银行存款",
+                "5": "复杂金融产品或其他产品",
+                "4": "期货、融资融券"
+            },
+            "QUESTION_TYPE": "2",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "509",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "1",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "4.00",
+            "QUESTION_CONTENT": "如果您曾经从事过金融市场投资，在交易较为活跃的月份，平均月交易额大概是多少：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "3.00",
+                "2": "2.00",
+                "1": "1.00",
+                "5": "0.00",
+                "4": "4.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "30万元-100万元",
+                "2": "10万元-30万元",
+                "1": "10万元以内",
+                "5": "从未从事过金融市场投资",
+                "4": "100万元以上"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "508",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "5.00",
+            "QUESTION_CONTENT": "您用于证券投资的大部分资金不会用作其它用途的时间段为：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "5.00",
+                "2": "3.00",
+                "1": "1.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "无特别要求",
+                "2": "1到5年",
+                "1": "0到1年"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8000",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "6.00",
+            "QUESTION_CONTENT": "您打算重点投资于哪些种类的投资品种（多选）？",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "5.00",
+                "2": "4.00",
+                "1": "2.00",
+                "5": "6.00",
+                "4": "6.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "期货、融资融券等",
+                "2": "股票、混合型基金、偏股型基金、股票型基金等权益类投资品种",
+                "1": "债券、货币市场基金、债券基金等固定收益类投资品种",
+                "5": "其他产品或服务",
+                "4": "复杂或高风险金融产品或服务"
+            },
+            "QUESTION_TYPE": "2",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8001",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "1",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "6.00",
+            "QUESTION_CONTENT": "假设有两种不同的投资：投资A预期获得5%的收益，有可能承担非常小的损失；投资B预期获得20%的收益，但有可能面临25%甚至更高的亏损。您将您的投资资产分配为：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "3.00",
+                "2": "1.00",
+                "1": "0.00",
+                "5": "6.00",
+                "4": "5.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "两种投资各一半",
+                "2": "大部分投资于A",
+                "1": "全部投资于A",
+                "5": "全部投资于B",
+                "4": "大部分投资于B"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "507",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "4.00",
+            "QUESTION_CONTENT": "当您进行投资时，您的首要目标是",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "3.00",
+                "2": "2.00",
+                "1": "0.00",
+                "4": "4.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "产生较多的收益，可以承担较大的投资风险",
+                "2": "产生一定的收益，可以承担一定的投资风险",
+                "1": "尽可能保证本金安全，不在乎收益率比较低",
+                "4": "实现资产大幅增长，愿意承担很大的投资风险"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8020",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "6.00",
+            "QUESTION_CONTENT": "您认为自己能承受的最大投资损失是多少？",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "4.00",
+                "2": "2.00",
+                "1": "0.00",
+                "4": "6.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "较大的投资损失",
+                "2": "一定的投资损失",
+                "1": "尽可能保证本金安全",
+                "4": "损失可能超过本金"
+            },
+            "QUESTION_T": ""
+        },
+        {
+            "QUESTION_SCORE": "7.00",
+            "QUESTION_CONTENT": "您的年龄是：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "3.00",
+                "2": "7.00",
+                "1": "5.00",
+                "5": "0.00",
+                "4": "2.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "41-50岁",
+                "2": "31-40岁",
+                "1": "18-30岁",
+                "5": "18以下或60以上",
+                "4": "51-60岁"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "504",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "5.00",
+            "QUESTION_CONTENT": "今后五年时间内，您的父母、配偶以及未成年子女等需负法定抚养、扶养和赡养义务的人数为：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "1.00",
+                "2": "3.00",
+                "1": "5.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "5人以上",
+                "2": "3-4人",
+                "1": "1-2人"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "503",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "5.00",
+            "QUESTION_CONTENT": "您的最高学历是：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "4.00",
+                "2": "2.00",
+                "1": "1.00",
+                "4": "5.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "大学本科",
+                "2": "大学专科",
+                "1": "高中或以下",
+                "4": "硕士及以上"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "502",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "4.00",
+            "QUESTION_CONTENT": "您家庭的就业状况是：",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "2.00",
+                "2": "3.00",
+                "1": "4.00",
+                "5": "0.00",
+                "4": "1.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "您与配偶均没有稳定收入的工作或者已退休",
+                "2": "您与配偶其中一人有稳定收入的工作",
+                "1": "您与配偶均有稳定收入的工作",
+                "5": "未婚，目前暂无稳定收入的工作",
+                "4": "未婚，但有稳定收入的工作"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "501",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "9.00",
+            "QUESTION_CONTENT": "年龄9%",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "5.00",
+                "2": "9.00",
+                "1": "7.00",
+                "5": "1.00",
+                "4": "3.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "41-50岁",
+                "2": "31-40岁",
+                "1": "18-30岁",
+                "5": "60以上",
+                "4": "51-60岁"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8951",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "6.00",
+            "QUESTION_CONTENT": "职业6%",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "4.00",
+                "2": "5.00",
+                "1": "6.00",
+                "5": "2.00",
+                "4": "3.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "个体",
+                "2": "行政企事业单位",
+                "1": "金融机构从业人员",
+                "5": "学生、其他、无业",
+                "4": "离退休、农民"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8952",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "5.00",
+            "QUESTION_CONTENT": "学历5%",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "3.00",
+                "2": "4.00",
+                "1": "5.00",
+                "4": "2.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "大学专科",
+                "2": "大学本科",
+                "1": "硕士及以上",
+                "4": "高中及以下"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8953",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "12.00",
+            "QUESTION_CONTENT": "当前证券账户总资产",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "8.00",
+                "2": "10.00",
+                "1": "12.00",
+                "6": "0.00",
+                "5": "3.00",
+                "4": "6.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "10-30万",
+                "2": "30-100万",
+                "1": "100万以上",
+                "6": "0",
+                "5": "0-1万",
+                "4": "1-10万"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8954",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "3.00",
+            "QUESTION_CONTENT": "其他券商资产",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "1.00",
+                "2": "3.00",
+                "1": "3.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "0",
+                "2": "0-10万",
+                "1": "10万以上"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8955",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "6.00",
+            "QUESTION_CONTENT": "证券账户开户时间",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "3.00",
+                "2": "6.00",
+                "1": "6.00",
+                "4": "1.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "1-3年",
+                "2": "3-5年",
+                "1": "5年以上",
+                "4": "1年以下"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8956",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "7.00",
+            "QUESTION_CONTENT": "首次交易时间",
+            "TRADE_RATE": "0",
+            "ANSWEE": {
+                "3": "3.00",
+                "2": "4.00",
+                "1": "5.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "短期——0到1年",
+                "2": "中期——1到5年",
+                "1": "长期——5年以上"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8961",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "7.00",
+            "QUESTION_CONTENT": "投资目标",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "3.00",
+                "2": "5.00",
+                "1": "7.00",
+                "4": "1.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "债券、货币市场基金、债券型基金或其它固定收益类产品",
+                "2": "股票、混合型基金、偏股型基金、股票型基金等权益类投资品种",
+                "1": "复杂金融产品或其他产品",
+                "4": "现金"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8962",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "10.00",
+            "QUESTION_CONTENT": "股票资产与总资产占比10%",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "7.00",
+                "2": "9.00",
+                "1": "10.00",
+                "5": "3.00",
+                "4": "5.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "30%-50%",
+                "2": "50%-70%",
+                "1": "70%以上",
+                "5": "10%以下",
+                "4": "10%-30%"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8963",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "15.00",
+            "QUESTION_CONTENT": "投资偏好",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "3": "12.00",
+                "2": "15.00",
+                "1": "15.00",
+                "4": "8.00"
+            },
+            "ANSWER_CONTENT": {
+                "3": "开通港股通账户",
+                "2": "开通个股期权、两融、分级基金、新三板业务或购买私募产品的",
+                "1": "开通个股期权、两融、分级基金、新三板业务两个及以上或购买私募产品",
+                "4": "开通A股交易的"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8964",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        },
+        {
+            "QUESTION_SCORE": "0.00",
+            "QUESTION_CONTENT": "诚信记录",
+            "TRADE_RATE": "0",
+            "ANSWER_SCORE": {
+                "2": "-10.00",
+                "1": "-10.00",
+                "9": "0.00"
+            },
+            "ANSWER_CONTENT": {
+                "2": "-10",
+                "1": "-10",
+                "9": "default"
+            },
+            "QUESTION_TYPE": "1",
+            "PAPER_ANSWER": "",
+            "QUESTION_NO": "8014",
+            "ORGAN_FLAG": "0",
+            "PAPER_TYPE": "1",
+            "QUESTION_KIND": "0",
+            "PRODTA_NO": ""
+        }
+    ]
+}

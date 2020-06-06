@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let a = `get1_install2_app3_list4_by5_android6`;
+        console.log(a.replace(/\d*[02468]/ig, ''))
+        f();
+
+        let b = {a:{a1:1},b:{a2:1}}
+        let c = {a:{a1:1},b:{a2:2}}
+
+        /**
+         * @author SangShuo
+         * @date 2020/5/4 12:53
+         * @Description: 比较两个对象不一致的内容
+         * param: one：第一个对象
+         * param: two: 第二个对象
+         * return: object
+        */
+        function ObjectF(one,two) {
+            if (one !== null && one !== undefined && Object.prototype.toString.call(one) !== '[object Object]') {
+                JSON.parse(one);
+            }
+        }
+        function f() {
+            let a = "1234"
+            a = {};
+            a = "1111111111"
+            console.log('a',a)
+        }
+    </script>
+</body>
+</html>
