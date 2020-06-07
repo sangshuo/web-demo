@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1c3df28-7144-499f-99cf-6b8a30bca984" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../router/router07/src/component/Welcome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../router/router07/src/component/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../router/router07/src/router/AppRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../router/router07/src/router/RouterConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css3/cs3三角形.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css3/star.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactdemo04/reactdemo04/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactdemo04/reactdemo04/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactdemo04/reactdemo04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactdemo04/reactdemo04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo05/routerdemo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../router/react-routerdemo05/routerdemo/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo05/routerdemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../router/react-routerdemo05/routerdemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../router/react-routerdemo06/routerdemo/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../router/router07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../router/router07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../router/router07/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../router/router07/src/router/AppRouter.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -362,11 +340,12 @@
       <workItem from="1591232585539" duration="1229000" />
       <workItem from="1591318748780" duration="595000" />
       <workItem from="1591456958688" duration="691000" />
+      <workItem from="1591495621386" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167791000" />
+    <option name="totallyTimeSpent" value="168386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="1" />
@@ -429,13 +408,7 @@
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
     <entry file="file://$PROJECT_DIR$/src/setupTests.js" />
     <entry file="file://$PROJECT_DIR$/src/js/list.js" />
-    <entry file="file://$USER_HOME$/Desktop/mySlefDemo/数组比较.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mySlefDemo/数组比较.html" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/node/globals.d.ts" />
     <entry file="file://$PROJECT_DIR$/package.config.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -558,6 +531,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/allList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/addUi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -585,17 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/allList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>

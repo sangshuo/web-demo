@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="707b1765-56a1-45fb-842a-c8fe270ae674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../router07/src/component/Welcome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../router07/src/component/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../router07/src/router/AppRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../router07/src/router/RouterConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react基础+redux/reactdemo02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../react基础+redux/reactdemo02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../css3/cs3三角形.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../css3/heart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../css3/star.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../react基础+redux/reactdemo02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../react基础+redux/reactdemo02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react基础+redux/reactdemo04/reactdemo04/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../react基础+redux/reactdemo04/reactdemo04/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react基础+redux/reactdemo04/reactdemo04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../react基础+redux/reactdemo04/reactdemo04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-routerdemo06/routerdemo/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../router07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../router07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../router07/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../router07/src/router/AppRouter.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -57,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="175">
               <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -69,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
+            <state relative-caret-position="900">
               <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
             </state>
           </provider>
@@ -106,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,6 +101,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,17 +149,18 @@
       <workItem from="1591318749102" duration="1229000" />
       <workItem from="1591447622791" duration="15000" />
       <workItem from="1591453353173" duration="1806000" />
+      <workItem from="1591495619644" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13217000" />
+    <option name="totallyTimeSpent" value="13812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="0" width="1936" height="1066" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11854584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11854584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -194,7 +174,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29077253" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29077253" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -217,16 +197,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="200">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppRouter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="175">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -234,13 +217,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="900">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
         </state>
       </provider>
     </entry>

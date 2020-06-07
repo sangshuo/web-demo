@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HEART</title>
+    <style type="text/css">
+        .allHeart {
+            width: 30%;
+            margin: 0 auto;
+        }
+        .allHeart::before {
+            content: "";
+            width: 200px;
+            height: 300px;
+            border: 1px solid red;
+            background: red;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            transform: rotate(48deg);
+            margin: 100px auto;
+            display: block;
+            position: absolute;
+            top: -90px;
+            right: 595px;
+        }
+        .allHeart:hover {
+
+        }
+        .allHeart::after {
+            content: "";
+            width: 200px;
+            height: 300px;
+            border: 1px solid red;
+            background: red;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            transform: rotate(-45deg);
+            display: block;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="allHeart">
+
+    </div>
+</body>
+</html>

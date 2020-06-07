@@ -20,7 +20,7 @@ function AppRouter() {
                 <div className="rightMain">
                     {ROUTERCONFIG.map((item, index) => {
                         return (
-                            <Route path={ item.src } exact={ item.exact } component={ item.component }/>
+                            <Route path={ item.src } exact={ item.exact } component={ item.component } key={ index + item }/>
                         )
                     })}
                 </div>
