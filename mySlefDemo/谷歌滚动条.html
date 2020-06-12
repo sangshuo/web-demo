@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .bigbox {
+            width: 500px;
+            height: 100px;
+            overflow: auto;
+            border: 1px solid red;
+        }
+
+        .centerbox {
+            width: 400px;
+            height: 500px;
+            margin: 0 auto;
+            border: 1px solid green;
+        }
+
+        ::-webkit-scrollbar {
+            width: 20px;
+            background: #fff7f7;
+        }
+        /*滑块*/
+        ::-webkit-scrollbar-thumb {
+            background-color: #333;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="bigbox">
+    <div class="centerbox"></div>
+</div>
+</body>
+</html>
