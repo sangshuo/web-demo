@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b1bb183-e581-49f2-85c9-46f009c01a29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react/react基础+redux/reactdemo02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/react基础+redux/reactdemo02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react/router/react-routerdemo05/routerdemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/router/react-routerdemo05/routerdemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react/router/router07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/router/router07/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6b1bb183-e581-49f2-85c9-46f009c01a29" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="146">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -85,6 +80,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -116,12 +112,12 @@
       <updated>1591935406273</updated>
       <workItem from="1591935410296" duration="2938000" />
       <workItem from="1591938404729" duration="208000" />
-      <workItem from="1591938963643" duration="2892000" />
+      <workItem from="1591938963643" duration="4167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6038000" />
+    <option name="totallyTimeSpent" value="7313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -149,7 +145,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19527897" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6276824" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -174,8 +170,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="146">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
