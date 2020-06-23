@@ -7,13 +7,7 @@ class XjiejieItem extends Component {
         super(props);
     }
     shouldComponentUpdate(nextProps,nextState) {
-        console.log("更新之前的数据",nextProps);
-        console.log("更新之前的状态",nextState);
-        if (nextProps.xxV !== this.props.xxV) {
-            return true
-        } else {
-            return false
-        }
+        return nextProps.xxV !== this.props.xxV
     }
     componentDidUpdate () {
         console.log('组件更新')

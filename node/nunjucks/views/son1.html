@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% extends 'parent.html' %}
+    {% block left %}
+        <p>我是son1里左侧内容</p>
+    {% endblock %}
+    {% block right %}
+        <p>我是son1里右侧内容</p>
+    {% endblock %}
+    {% block somevalue %}
+        {{ super() }}
+    {% endblock %}
+</body>
+</html>

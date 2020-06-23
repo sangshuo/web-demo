@@ -24,7 +24,7 @@ const server = http.createServer((req, res) => {
                 <div class="info">
                     <span class="tips"><span>${v.from}</span></span>
                     <!-- <span class="line"></span> -->
-                    <span class="time">| &nbsp;&nbsp;${v.newsTime}</span>
+                    <span class="time">${v.newsTime}</span>
                 </div>
             </div>
         </li>`

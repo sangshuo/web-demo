@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>我是父级模板</p>
+    {% block left %}
+        <p>左边内容</p>
+    {% endblock %}
+    {% block right %}
+        <p>右边内容</p>
+    {% endblock %}
+    {% block somevalue %}
+        <p>一些数据</p>
+    {% endblock %}
+</body>
+</html>

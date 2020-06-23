@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    f1()
+    /*
+        Promise 学习小结
+        心得：async 必须是放在异步方法上   和 await 同用   单独 async  或者  await  或者  非 异步方法 无意义
+
+              Promise 是异步方法  当resolve执行完成之后会执行.then()方法
+
+              resolve方法会将需要回调的数据回调到.then的回调函数参数中接收
+
+              .then 可以 链式编程回调
+
+              async 会 表明 函数是异步函数   await 会等待 resolve方法执行完成之后执行 await方法
+     */
+    async function f1() {
+        await new Promise(
+            (resolve, reject) => {
+                setTimeout(() => {
+                    console.log(reject)
+                    resolve("我是回调数据")
+                }, 1000)
+            }
+        )
+            .then((data) => {
+                console.log(data)
+            })
+        await new Promise(
+            (resolve, reject) => {
+                setTimeout(() => {
+                    console.log(reject)
+                    resolve(reject)
+                }, 1000)
+            }
+        )
+
+    }
+</script>
+</body>
+</html>
