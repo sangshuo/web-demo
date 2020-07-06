@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <style>
+        .box {
+            width: 600px;
+            height: 3000px;
+            background-color: pink;
+        }
+    </style>
+    <meta name="layout" content="main">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="./js/jquery-3.2.1.js"></script>
+    <script src="./js/bul.js"></script>
+    <script type="text/javascript" src="http://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script type="text/javascript" src="./js/canvas2image.js"></script>
+    <title>截屏</title>
+
+</head>
+<body>
+    <iframe id="myDoc" src="http://www.baidu.com"></iframe>
+    <div id="iframeCon"></div>
+    <input  type="button" value="button">
+生成界面如下：
+</body>
+<script  type="text/javascript" >
+    document.domain = "http://www.baidu.com"
+    document.querySelector('input').onclick = function (event) {
+        let iframeContent = document.getElementById('myDoc')
+        // 在父页面创建一个容器
+        var fillContent = document.createElement('div')
+        fillContent.innerHTML = iframeContent.contentWindow.document.body.outerHTML
+        document.body.appendChild(fillContent)
+        var width = iframeContent.offsetWidth;
+        var height = iframeContent.offsetHeight;
+        var canvas = document.createElement("canvas");
+        var scale = 2;
+        //将 canvas 的宽高设置成容器宽高的 2 倍
+        canvas.width = width * scale;
+        canvas.height = height * scale;
+        //将画布缩放，将图像放大两倍画到画布上,提高清晰度
+        canvas.getContext("2d").scale(scale, scale);
+
+        //html2canvas参数
+        var opts = {
+            scale: scale,
+            canvas: canvas,
+            logging: true,
+            width: width,
+            height: height,
+            useCORS: true
+        };
+
+        html2canvas(fillContent, opts).then(function (canvas) {
+            document.body.removeChild(fillContent);
+            var url = canvas.toDataURL('image/png')
+            var newImg = document.createElement("img");
+            newImg.src =  url;
+            document.body.appendChild(newImg);
+        });
+    }
+</script>
+</html>

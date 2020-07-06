@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{margin:0;overflow: hidden}
+        #canvas{background: antiquewhite;}
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript">
+        const canvas = document.getElementById("canvas");
+        canvas.width = window.innerWidth
+        canvas.height = window.innerHeight
+        //canvas 上下文
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = 'red'
+        ctx.strokeStyle = '#00'
+
+        //描边宽度
+        ctx.lineWidth = 40
+
+        //填充矩形方法fillRect(x,y,w,h)
+        ctx.fillRect(50,50,400,200)
+
+        //描边矩形
+        ctx.strokeRect(50,50,400,200)
+
+        //清理矩形方法
+        ctx.clearRect(50,50,400,200)
+    </script>
+</body>
+</html>

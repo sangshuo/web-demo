@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body { margin: 0; overflow: hidden }
+        #canvas { background: antiquewhite }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript">
+        const canvas = document.getElementById("canvas")
+        canvas.width = window.innerWidth
+        canvas.height = window.innerHeight
+
+        //画笔
+        const ctx = canvas.getContext("2d")
+        //描边宽度
+        ctx.lineWidth = 10
+
+        /*
+            1.开始建立路径：beginPath
+            2.向路径集合中添加子路径
+            【
+                形状：closePath 可选
+                moveTo(x,y) 形状 closePath 可选
+            】
+            3.显示路径：填充fill() 描边：stroke
+         */
+
+        //直线
+        ctx.beginPath()
+        ctx.moveTo(50,50)
+        ctx.lineTo(400,50)
+        // ctx.moveTo(410,50)
+        ctx.lineTo(400,300)
+        ctx.stroke()
+
+        // //圆弧
+        // ctx.moveTo(350,350)
+        // ctx.beginPath()
+        // ctx.arc(270,170,100,0,Math.PI * 3/2)
+        // ctx.stroke()
+
+        // //切线圆弧
+        // ctx.beginPath()
+        // ctx.moveTo(50,50)
+        // ctx.arcTo(400,50,400,300,150)
+        // ctx.stroke()
+    </script>
+</body>
+</html>

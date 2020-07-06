@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .wrapper {
+            height: 800px;
+        }
+
+        canvas {
+            margin-top: 20px;
+            transform: scale(0.5);
+        }
+    </style>
+</head>
+<body>
+<canvas width="600" height="554" id="canvas"></canvas>
+<script type="text/javascript">
+    var canvas = document.getElementById("canvas")
+    if (canvas.getContext("2d")) {
+        var c = canvas.getContext("2d")
+        //        尾巴
+        c.strokeStyle = "#33190c"
+        c.fillStyle = "#ffffd9"
+        c.lineWidth = 6
+        c.beginPath()
+        c.moveTo(433, 458)
+        c.lineTo(477, 438)
+        c.bezierCurveTo(492, 433, 496, 453, 484, 463)
+        c.lineTo(433, 494)
+        c.fill()
+        c.stroke()
+
+        c.strokeStyle = "#33190c"
+        c.fillStyle = "#ffffd9"
+        c.lineWidth = 6
+        c.beginPath()
+        c.moveTo(400, 30)
+        c.lineTo(440, 0)
+        c.bezierCurveTo(600, 600, 500, 600, 440, 300)
+        c.fill()
+        c.stroke()
+    }
+</script>
+</body>
+</html>

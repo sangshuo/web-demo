@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="jieping">截屏</button>
+<script type="text/javascript">
+    document.getElementById("jieping").onclick = function() {
+        let cmd = new ActiveXObject("WScript.shell")
+        cmd.Run("E:\\Test1\\5.bat",1,true)
+    }
+</script>
+</body>
+</html>

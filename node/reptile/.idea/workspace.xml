@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="957308e1-4559-4175-ad28-cfb1bc5fdb86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mySlefDemo/asyncDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mySlefDemo/优先级.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nunjucks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nunjucks/views/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nunjucks/views/import.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nunjucks/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nunjucks/views/parent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nunjucks/views/son1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pug/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pug/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pug/views/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/web_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/web_study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../canvas/基础部分/各种矩形.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../canvas/基础部分/路径.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mySlefDemo/ceshi1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mySlefDemo/js/bul.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mySlefDemo/js/canvas2image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mySlefDemo/vbs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mySlefDemo/数字滚动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mySlefDemo/解构.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../css3/heart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../css3/heart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react/react基础+redux/reactdemo01/src/XiaojiejieItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/react基础+redux/reactdemo01/src/XiaojiejieItem.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -178,11 +171,22 @@
       <workItem from="1592745716413" duration="595000" />
       <workItem from="1592788624609" duration="755000" />
       <workItem from="1592916585811" duration="2244000" />
+      <workItem from="1593340461597" duration="594000" />
+      <workItem from="1593392866694" duration="594000" />
+      <workItem from="1593407840658" duration="593000" />
+      <workItem from="1593414981157" duration="268000" />
+      <workItem from="1593416917305" duration="594000" />
+      <workItem from="1593508448661" duration="595000" />
+      <workItem from="1593565724891" duration="594000" />
+      <workItem from="1593651886561" duration="594000" />
+      <workItem from="1593739499991" duration="593000" />
+      <workItem from="1593829059850" duration="594000" />
+      <workItem from="1593998308673" duration="593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25305000" />
+    <option name="totallyTimeSpent" value="31511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
@@ -240,7 +244,7 @@
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
