@@ -1,0 +1,310 @@
+
+<base href="http://neris.csrc.gov.cn/shixinchaxun/">
+
+
+<script type="text/javascript" src="/shixinchaxun/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/shixinchaxun/js/jquery.validate.js"></script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" media="all" href="/shixinchaxun/styles/default/css/public.css" />
+<script>
+    function _submit(){
+        if(document.getElementById("list_form").action!=''){
+            document.getElementById("list_form").submit();
+        }
+    }
+    //设置框架高度
+    function setMainHeight(){
+        var h=$(window).height()-125;
+        $('#isin-bottom').height(h);
+        $('#menutree').height(h);
+        $('#maincontent').height(h-45);
+    }
+    //窗口大小动态获得宽高
+    $(window).resize(function(){
+        setMainHeight();
+    });
+
+    /**
+     * 校验特殊字符
+     返回 true 含义特殊字符，返回 false 不含有特殊字符
+     *
+     */
+    function validateSpecialChar(str){
+        var reg=/[ @#$%\^\&\*]/;//renshuai：不能出现的特殊字符
+        if(reg.test(str)){
+            return true;
+        }
+
+        return false;
+    }
+    //-----renshuai-----
+    /**
+     * renshuai:触发单击事件(调用日期控件)
+     * objid 需要触发单击的
+     */
+    function triggerClick(objid){
+        //获取焦点
+        //$("#"+objid+"").trigger("focus");
+        //调用点击事件
+        $("#"+objid+"").get(0).click();
+    }
+</script>
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <link rel="stylesheet" href="/shixinchaxun/css/liMarquee.css">
+    <script src="/shixinchaxun/js/jquery-1.8.3.min.js"></script>
+    <script src="/shixinchaxun/js/jquery.liMarquee.js"></script>
+    <title>资本市场违法违规失信记录查询</title>
+    <style type="text/css">
+        a{
+            text-decoration:none;
+            color:#1860a4;
+
+        }
+        a:hover{
+            color:#05326e;
+        }
+    </style>
+    <script language="javascript">
+        $(document).ready(function(){
+            $('#querybtn').click(function(){
+                var sObjName = $.trim($('#objName').val());
+                var ycode = $.trim($('#ycode').val());
+                if(sObjName==''){
+                    alert('必须填写违法违规失信者姓名/名称！');
+                    return false;
+                }else if(jmz.GetLength(sObjName)<4){
+                    alert('违法违规失信者姓名/名称必须是两个以上汉字！');
+                    return false;
+                }else{
+                    if(ycode==''){
+                        alert('验证码不能为空！');
+                        return false;
+                    }else{
+                        list_form.action="/shixinchaxun/honestyObj/query.do";
+                        list_form.submit();
+                    }
+                }
+            });
+
+
+
+        });
+
+        var jmz = {};
+        jmz.GetLength = function(str) {
+            ///<summary>获得字符串实际长度，中文2，英文1</summary>
+            ///<param name="str">要获得长度的字符串</param>
+            var realLength = 0, len = str.length, charCode = -1;
+            for (var i = 0; i < len; i++) {
+                charCode = str.charCodeAt(i);
+                if (charCode >= 0 && charCode <= 128) realLength += 1;
+                else realLength += 2;
+            }
+            return realLength;
+        };
+
+        var checkStr = {};
+        checkStr.Check = function(str){
+            if(/^([a-zA-Z]|\s)*$/.test(str)){
+                return 'zimu';
+            }else if(/^([\u4e00-\u9fa5])*$/.test(str)){
+                return 'hanzi';
+            }else return 'nor';
+        };
+
+        function getDetail(id){
+
+        }
+        var tlist = new Array();
+        var tflag = true;
+        function reload(obj){
+            if(!tflag){
+                alert("验证码更换过于频繁,请稍后再试!");
+                return;
+            }
+            var now = new Date();
+            var t = tlist.unshift(now);
+            if(t>5){
+                var ftime = tlist.pop();
+                if(now.getTime() - ftime.getTime() < 10000){ //10秒最多点击5次
+                    tflag = false;
+                    setTimeout("tflag=true",10000);
+                }
+                tlist = new Array();
+            }
+
+            obj.src = "/shixinchaxun/login/ycode.do?d="+ new Date();
+        }
+
+
+        function changeCheckNum() {
+            var checkNumImage_ = document.getElementById("captcha_img");
+            checkNumImage_.src =  "/shixinchaxun/login/ycode.do?d="+ new Date();
+        }
+        function beautySub(str, len) {
+            var reg = /[\u4e00-\u9fa5]/g,    //专业匹配中文
+                slice = str.substring(0, len),
+                chineseCharNum = (~~(slice.match(reg) && slice.match(reg).length)),
+                realen = slice.length * 2 - chineseCharNum;
+            return str.substr(0, realen) + (realen < str.length ? ".." : "");
+        }
+    </script>
+</head>
+<body onload="changeCheckNum();">
+<table align="center" width="990" border="0" cellpadding="0" cellspacing="0"  height="110">
+    <tr>
+        <td><img src="/shixinchaxun/images/pub/banner.jpg"></td>
+    </tr>
+</table>
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0" class="top_bg">
+    <tr>
+        <td height="579" align="center" valign="top" class="bottom_bg">
+            <table width="990" border="0" cellspacing="0" cellpadding="0">
+                <tr  height="82">
+                    <td width="24">&nbsp;</td>
+                    <td width="966"><a href="http://www.csrc.gov.cn" target="_blank"><img src="/shixinchaxun/images/pub/back_off.png" width="92" height="25" alt="返回主站"></a></td>
+                </tr>
+            </table>
+            <form id="list_form" name="list_form" method="post">
+                <table width="760" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td valign="middle" class="search_bg">
+                            <input type="hidden" name="randSesion"  value = "f232f2e25d3c4542b3dbc162bf570431" />
+                            <table width="730" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:15px;">
+                                <tr>
+                                    <td height="28" align="right" class="text_s"><strong>违法违规失信者姓名/名称：</strong></td>
+                                    <td width="270" class="text_input" colspan="2"><input id="objName" name="objName" value=""></input>
+                                    </td>
+                                    <td width="239" align="left"><span style="color:#F00; font-size:18px; font-weight:bold;">*</span>必须填写姓名或名称,至少两个以上汉字。</td>
+                                </tr>
+                                <tr>
+                                    <td height="40" align="right" class="text_s"><strong>身份证号码/组织机构代码&nbsp;&nbsp;<br>/统一社会信用代码：</strong></td>
+                                    <td class="text_input" colspan="2">
+                                        <input id="realCardNumber" name="realCardNumber" value=""></input>
+                                    </td>
+                                    <td align="left">&nbsp;&nbsp;需填写完整。</td>
+                                </tr>
+                                <tr>
+                                    <td height="40" align="right" class="text_s"><strong>验证码：</strong></td>
+                                    <td style="vertical-align:middle;" width="95px" align="left">
+                                        <img id="captcha_img" title="点击更换" src="/shixinchaxun/login/ycode.do" style="cursor:pointer;vertical-align:8px;" onclick="reload(this);"/>
+                                    </td>
+                                    <td style="vertical-align:middle;" align="left">
+                                        <input id="ycode" name="ycode" value="" style="margin-left:12px;vertical-align:10px;width:100px;border:0px;background-color:transparent;"></input>
+                                        <span style="color:#F00; font-size:18px; font-weight:bold; vertical-align: 10px;">*</span>
+                                    </td>
+                                    <td align="left" style="color:red;"></td>
+                                </tr>
+                                <tr>
+                                    <td height="30" colspan="4" align="center">
+                                        <table width="290" border="0" cellspacing="0" cellpadding="0" style="margin-top:7px;">
+                                            <tr>
+                                                <td height="33"><img src="/shixinchaxun/images/pub/search.jpg" width="92" height="33" id="querybtn" name="querybtn" alt="search" style="cursor:pointer;"></td>
+                                            </tr>
+                                        </table></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr  height="5">
+                        <td></td>
+                    </tr>
+
+
+                    <!--滚动条begin -->
+                    <tr id="scrollarea"  style="display:none;padding-bottom:8px;padding-top:8px">
+                        <td background="/shixinchaxun/images/pub/table_mid.png" align="left" width="760" >
+                            <h2 style="text-align:center;color:#1860a4;">证券期货市场严重违法失信主体专项公示</h2>
+                            <div style="margin-left:20px">
+                                <div id="scrollpartL" class="scroll" style="float:left;width:360px;height:100px;)"></div>
+
+                                <div id="scrollpartR" class="scroll" style="float:left;width:360px;height:100px;)"></div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <!-- 滚动条end -->
+
+                    <tr>
+                        <td height="280" align="center" valign="top" background="/shixinchaxun/images/pub/table_mid.png">
+
+                            <div style="width:720px; height:300px; margin:0 18px; background:#ffffff; overflow:auto; border:1px solid #ccc;">
+                                <div class="shengming">
+                                    <h1>证券期货市场失信记录查询平台使用声明</h1>
+                                    <hr>
+                                    <p style="margin-top:-5px; text-align:center; color:#CCC;">中国证监会 www.csrc.gov.cn  来源：证监会</p>
+                                    <p>　　为完善社会信用体系，切实加强资本市场诚信建设，维护投资者合法权益，根据《证券期货市场诚信监督管理办法》有关规定，中国证监会在官方网站建立证券期货市场失信信息公开查询平台，为社会公众提供违法违规失信信息查询服务。社会公众可通过查询平台了解相关市场主体违法违规失信信息。现就有关事项声明如下： </p>
+                                    <p>　　一、失信信息范围。目前可查询的违法违规失信信息主要包括：中国证监会及派出机构作出的行政处罚、市场禁入决定，证券期货交易所及行业自律组织实施的纪律处分措施和法律、行政法规、规章规定的管理措施。 <br>
+                                        <br>
+                                        　　二、失信信息查询方式。本网站提供查询对象姓名/名称、查询对象身份号码（组织机构代码/身份证号码/统一社会信用代码）两个查询项。查询对象姓名/名称是必填项，机构支持四个字以上（含）的模糊查询，个人支持两个字以上的模糊查询。 <br>
+                                        <br>
+                                        　　三、合法查询使用。查询人必须依法使用查询信息，不得用于非法目的和不正当用途。非法使用本网站信息给他人造成损害的，由使用人自行承担相应责任。 <br>
+                                        <br>
+                                        　　四、异议处理。本网站公布的违法违规失信信息当事人对相关信息内容有异议，可依据《证券期货市场诚信监督管理办法》有关规定申请更正。 <br>
+                                        <br>
+                                        　　五、本网站提供的信息仅供查询人参考，如需详细诚信报告请按照《证券期货市场诚信监督管理办法》有关规定办理申请查询。 <br>
+                                        <br>
+                                        　　六、本网站属于政府网站，未经许可，任何商业性网站不得建立与本网站及其内容的链接，不得建立本网站的镜像（包括全部和局部镜像），不得拷贝、复制或传播本网站信息。 </p>
+                                    <p>&nbsp;</p>
+                                    <p> 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　  　中国证监会<br>
+                                        　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　　　　　　　　　　　　　　二零一八年七月</p>
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="18" align="center"><img src="/shixinchaxun/images/pub/table_bottom.png" width="760" height="19" alt="bottom"></td>
+                    </tr>
+                </table>
+            </form>
+            <table width="760" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td height="50" align="center">版权所有：中国证券监督管理委员会 京ICP备 05035542号 </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<script>
+    $.ajax({
+        url: "/shixinchaxun/honestyObj/importentObj.do?time="+new Date(),
+        contentType: "application/json; charset=utf-8",
+        success: function(implist){
+            if(implist.length){
+                $("#scrollarea").css('display','block');
+                var htmlmsgL = "";
+                var htmlmsgR = "";
+                for(var i in implist){
+                    if(implist[i].objType==2){//左边人员
+                        var impmsg = "<span style='display:block;width:100px;float:left;'>"+implist[i].objName+"</span><span style='display:block;float:left;width:200px;overflow:hidden'>"+implist[i].cardNumber+"</span>"
+                        var imphref = "/shixinchaxun/honestyObj/getimportentObj.do?honestyobjid="+implist[i].remark;
+                        htmlmsgL = htmlmsgL +"<a target='_blank' href='"+imphref+"'><li style='list-style-type:none;text-decoration:none;padding:5px 5px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;'>"+impmsg+"</li></a>";
+                    }else{//右边机构
+                        var beautyObjName = beautySub(implist[i].objName,16); //限制公司名称长度
+                        var impmsg = "<span style='display:block;width:200px;float:left;'>"+beautyObjName+"</span><span style='display:block;float:left;width:150px;overflow:hidden'>"+implist[i].cardNumber+"</span>"
+                        var imphref = "/shixinchaxun/honestyObj/getimportentObj.do?honestyobjid="+implist[i].remark;
+                        htmlmsgR = htmlmsgR +"<a target='_blank' href='"+imphref+"'><li style='list-style-type:none;text-decoration:none;padding:5px 5px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;'>"+impmsg+"</li></a>";
+                    }
+                }
+                $("#scrollpartL").html(htmlmsgL);
+                $("#scrollpartR").html(htmlmsgR);
+                $('.scroll').liMarquee({
+                    direction: 'up',
+                    drag:false
+                });
+            }
+        }});
+</script>
+
+</body>
+</html>
+

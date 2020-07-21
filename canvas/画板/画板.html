@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas"></canvas>
+<script type="text/javascript">
+    window.onload = function () {
+        var myCanvas = document.querySelector('#myCanvas')
+        myCanvas.width = window.innerWidth
+        myCanvas.height = window.innerHeight
+        var cxt = myCanvas.getContext('2d')
+        myCanvas.onmousedown = function (event) {
+            var e = event || window.event
+//获取鼠标开始点击位置
+            cxt.moveTo(e.clientX - myCanvas.offsetLeft, e.clientY - myCanvas.offsetTop)
+            document.onmousemove = function (event) {
+                var e = event || window.event
+//鼠标移动位置
+                cxt.lineTo(e.clientX - myCanvas.offsetLeft, e.clientY - myCanvas.offsetTop)
+                cxt.stroke()
+            }
+
+            document.onmouseup = function () {
+                document.onmouseup = null
+                document.onmousemove = null
+            }
+        }
+
+    }
+</script>
+</body>
+</html>
