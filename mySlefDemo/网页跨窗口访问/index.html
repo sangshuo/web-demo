@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <h1>主页窗口</h1>
+  <hr/>
+  <form method="post" action="">
+	<input type="button" value="打开子窗口" onclick="openChild1Win()">
+	<input type="button" value="执行子窗口的方法" onclick="callChild1Fun()">
+	<input type="button" value="关闭子窗口" onclick="closeChild1Fun()">
+  </form>
+
+  <h1>
+  window.postMessage(data,"*");
+  window.addEventListener('message', function(e){} );
+  </h1>
+  <form method="post" action="">
+	<input type="button" value="执行子窗口的事件" onclick="callEvent()">
+  </form>
+ </body>
+</html>
+
+<script type="text/javascript">
+<!--
+//打开新窗口
+var operChild1 = null ;
+function openChild1Win(){
+   let width = window.innerWidth
+   let height = window.innerHeight
+	operChild1 = window.open("./child1.html","_blank","height=600, width=600, top=0, left=400, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no,fullscreen=yes")
+}
+//执行新窗口的方法
+function callChild1Fun(){
+	if(operChild1!=null){
+		operChild1.child1Func();
+	}
+}
+//从当前页面关闭新窗口
+function closeChild1Fun(){
+	if(operChild1!=null){
+		operChild1.close() ;
+		operChild1 = null ;
+		alert("子窗口关闭！") ;
+	}
+	else{
+		alert("子窗口不存在") ;
+	}
+}
+//当前窗口的测试方法
+function callIndexFun(){
+	alert("我是父窗口") ;
+}
+
+//触发事件
+function callEvent(){
+	if(operChild1){
+		operChild1.postMessage({'data':'父窗口传递的数据集'},"*");
+	}
+}
+//添加事件
+window.addEventListener('message', function(e){
+	alert("执行父窗口的事件" + JSON.stringify(e.data)) ;
+});
+//-->
+</script>

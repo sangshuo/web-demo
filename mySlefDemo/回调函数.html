@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回调函数</title>
+</head>
+<body>
+<script type="text/javascript">
+    function f(ff) {
+        ff.call(this)
+    }
+    f(function () {
+        alert(111111)
+    })
+</script>
+</body>
+</html>

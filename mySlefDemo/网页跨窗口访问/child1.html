@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  我是新窗口
+  <hr/>
+
+  <form method="post" action="">
+	<input type="button" value="执行父窗口的方法" onclick="opener.callIndexFun()">
+	<input type="button" value="执行父窗口的事件" onclick="opener.postMessage({'data':'子窗口传递的数据集'},'*')">
+	<input type="button" value="关闭子窗口" onclick="opener.closeChild1Fun()">
+	<input type="button" value="关闭子窗口" onclick="opener.operChild1=null;window.close()">
+  </form>
+
+ </body>
+</html>
+<script type="text/javascript">
+<!--
+function child1Func(){
+	alert("我是子窗口中的方法") ;
+}
+
+//添加事件
+window.addEventListener('message', function(e){
+	alert("执行子窗口的事件 : " + JSON.stringify(e.data)) ;
+});
+//-->
+</script>

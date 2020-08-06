@@ -20,22 +20,92 @@
     </style>
 </head>
 <body>
-<div style="width: 500px;height: 500px;overflow: hidden">
+<div style="height: 20000px;">
     <div id="big_box">
-        <div style="width: 500px; height: 500px;border: 1px solid green"></div>
+        <div id="box" style="width: 500px; height: 1500px;border: 1px solid green"></div>
     </div>
 </div>
     <script type="text/javascript">
-        $(window).scroll(function () {
-            alert(11111111)
+        let bigbox = document.getElementById("big_box")
+        let box = document.getElementById("box")
+
+        function f() {
+            console.log(bigbox.clientHeight)
+            console.log(bigbox.scrollHeight)
+            console.log(bigbox.scrollTop)
+            console.log(bigbox.scrollHeight - bigbox.scrollTop)
+            // console.log(bigbox.scrollHeight - bigbox.scrollTop - bigbox.clientHeight)
+            // console.log(bigbox.scrollTop)
+            // if ()
+        }
+        $(bigbox).scroll(function () {
+            f(function () {
+
+            })
         });
-        $('#big_box').scroll(function () {
-            var big_box_dom = $('#big_box')[0];
-            console.log("big_box_dom.scrollHeight",big_box_dom.scrollHeight)
-            console.log("big_box_dom.clientHeight",big_box_dom.clientHeight)
-            if (big_box_dom.scrollHeight > big_box_dom.clientHeight) alert("下面还有哦")
-            $('.big_box').bind("divOverflow", function(){alert('div overflowed!')})
-        })//function非必须
+        // $('#big_box').scroll(function () {
+        //     var big_box_dom = $('#big_box')[0];
+        //     console.log("big_box_dom.scrollHeight",big_box_dom.scrollHeight)
+        //     console.log("big_box_dom.clientHeight",big_box_dom.clientHeight)
+        //     if (big_box_dom.scrollHeight > big_box_dom.clientHeight) alert("下面还有哦")
+        //     $('.big_box').bind("divOverflow", function(){alert('div overflowed!')})
+        // })//function非必须
+
+
+
+
+
+
+
+
+
+        // var scrollToBottom = {
+        //     getScrollTop:function(){
+        //         var scrollTop = 0, bodyScrollTop = 0, documentScrollTop = 0;
+        //         if(document.body){
+        //             bodyScrollTop = document.body.scrollTop;
+        //         }
+        //         if(document.documentElement){
+        //             documentScrollTop = document.documentElement.scrollTop;
+        //         }
+        //         scrollTop = (bodyScrollTop - documentScrollTop > 0) ? bodyScrollTop : documentScrollTop;
+        //         return scrollTop;
+        //     },
+        //     getScrollHeight:function(){
+        //         var scrollHeight = 0, bodyScrollHeight = 0, documentScrollHeight = 0;
+        //         if(document.body){
+        //             bodyScrollHeight = document.body.scrollHeight;
+        //         }
+        //         if(document.documentElement){
+        //             documentScrollHeight = document.documentElement.scrollHeight;
+        //         }
+        //         scrollHeight = (bodyScrollHeight - documentScrollHeight > 0) ? bodyScrollHeight : documentScrollHeight;
+        //         return scrollHeight;
+        //     },
+        //     getClientHeight:function(){
+        //         var windowHeight = 0;
+        //         if(document.compatMode == "CSS1Compat"){
+        //             windowHeight = document.documentElement.clientHeight;
+        //         }else{
+        //             windowHeight = document.body.clientHeight;
+        //         }
+        //         return windowHeight;
+        //     },
+        //     onScrollEvent:function(callback){
+        //         var This = this;
+        //         window.onscroll = function(){
+        //             if(This.getScrollTop() + This.getClientHeight() >= This.getScrollHeight()){
+        //                 typeof callback == "function" && callback.call(this);
+        //             }
+        //         }
+        //     }
+        // };
+        //
+        // //我们来在 window 上注册onscroll事件来测试一下
+        // scrollToBottom.onScrollEvent(function(data){
+        //     console.log(data)
+        //     alert("滚动条到底部了");
+        // });
     </script>
 </body>
 </html>
